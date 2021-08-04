@@ -21,5 +21,5 @@ allprojects {
 
 
 dependencies {
-    implementation 'com.github.YcsGH:MinSystem:1.0.3'
+    implementation 'com.github.YcsGH:MinSystem:1.0.4'
 }
