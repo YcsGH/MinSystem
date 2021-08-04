@@ -40,7 +40,9 @@ public class BaseChildSystem extends MinSystem {
 
     public void setNodeAvailable(boolean nodeAvailable) {
         super.setNodeAvailable(nodeAvailable);
-        this.setStatus(NODE_ERROR);
+        if(!nodeAvailable){
+           this.setStatus(NODE_ERROR);
+        }
     }
 
     public int getStatus() {
