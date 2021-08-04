@@ -11,5 +11,5 @@
 ### USE
 
 dependencies {
-    implementation 'com.android.icore:MinSystem:1.0.0'
+    implementation 'com.github.YcsGH:MinSystem:1.0.2'
 }
