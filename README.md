@@ -10,6 +10,16 @@
 
 ### USE
 
+
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+
+
+
 dependencies {
     implementation 'com.github.YcsGH:MinSystem:1.0.2'
 }
